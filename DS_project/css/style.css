@@ -90,7 +90,6 @@ html body{
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   height: 100%;
   position: absolute;
 }
@@ -156,11 +155,13 @@ html body{
 .menu-href {
   color: #c5d5e6;
 }
+
 .button-bg {
   background: linear-gradient(270deg, #6082d7, #e73453);
   border-radius: 4px;
 }
 .aid {
+  font-size: 15px;
   color: #fff;
 }
 .loop {
@@ -193,6 +194,7 @@ html body{
   flex-direction: column;
   justify-content: space-between;
   margin-left: 5vw;
+  margin-top: 22vh;
   color: #c5d5e6;
   font-family: "Geometria-Medium";
   font-size: 16px;
@@ -285,8 +287,9 @@ html body{
 .footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 28vh;
   margin-left: 5vw;
-  margin-bottom: 3vh;
+  margin-bottom: 1vh;
 }
 .footer-1 {
   display: flex;
@@ -337,6 +340,12 @@ h5 {
   justify-content: space-between;
   margin-left: 5vw;
   margin-bottom: 3vh;
+  margin-top: 28vh;
+}
+.social-icon{
+  margin-left: 1vw;
+  height: 3vh;
+  width: 2.3vw;
 }
 .contacts-footer-1 {
   display: flex;
@@ -348,6 +357,7 @@ h5 {
   flex-direction: column;
   width: 50vw;
   margin-left: 25vw;
+  margin-top: 22vh;
 }
 .contacts-text {
   color: #ffffff;
@@ -417,17 +427,19 @@ h5 {
   margin-top: 2vh;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   margin-right: 2vw;
   color: #c5d5e6;
   font-family: "Geometria-Medium";
 }
 .project-menu {
   display: flex;
-  margin-left: -155px;
+  margin-left: -9vw;
+}
+.project-text-main {
+  margin-left: 7vw;
 }
 .project-menu div {
-  padding-left: 7%;
+  margin-left: 6vw;
 }
 .project-menu-href {
   opacity: 0.15;
@@ -587,11 +599,11 @@ h5 {
   position: fixed;
 }
 .button-bg-2 {
-  padding: 8px 20px;
+  padding: 0.6vh 1.1vw;
   font-size: 14px;
-  margin-left: 5px;
+  margin-left: 0.vw;
   font-weight: 400;
-  line-height: 19px;
+  line-height: 2.3vh;
 }
 .button-bg-2 {
   background-color: #6082d7;
@@ -1145,10 +1157,14 @@ padding-left: 20px;
     width: 2.2vw;
     height: 2.2vh;
   }
+  .aid{
+    font-size: 18px;
+  }
 
   /*CONTENT*/
   .main {
-    font-size: 18px;
+    width: 50%;
+    font-size: 20px;
   }
   .pointer{
     width: 1.5vw;
@@ -1158,38 +1174,212 @@ padding-left: 20px;
     height: 0.2vh;
   }
   .text-1-link {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1vh;
   }
   .text-1-wording {
-    font-size: 70px;
+    font-size: 75px;
     font-weight: 400;
     line-height: 5vh;
   }
   .button {
-    font-size: 18px;
+    font-size: 20px;
     width: 10vw;
     height: 4vh;
   }
   /*FOOTER*/
+  .footer{
+    margin-top: 28vh;
+  }
   h5 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
   }
   .social-icon1 {
-    width: 1.3vw; 
+    width: 1.5vw; 
   }
   .social-icon2 {
-    width: 0.6vw; 
+    width: 0.8vw; 
   }
   .social-icon3 {
-    width: 1.7vw; 
+    width: 1.9vw; 
   }
   .chat-icon {
     width: 3.5vw;
     height: 6vh;
     border-radius: 90px;
   }
+
+  /*CONTACTS*/
+
+.contacts-footer {
+  margin-left: 5vw;
+  margin-bottom: 3vh;
+  margin-top: 36vh;
+}
+.social-icon{
+  margin-left: 1vw;
+  height: 3vh;
+  width: 2.3vw;
+}
+.contacts-footer-1 {
+  margin-left: 43%;
+}
+.contacts-main {
+  width: 50vw;
+  margin-left: 25vw;
+  margin-top: 25vh;
+}
+.contacts-text {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 5.5vh;
+}
+.contacts-text-2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5vh;
+}
+.input__block {
+  margin-top: 1vh;
+}
+
+.input-background {
+  padding: 5px;
+  margin-right: 1vw;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  border-radius: 4px;
+}
+.input-background-2 {
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6vh;
+}
+.menu-button {
+  border-radius: 4px;
+  margin: 0 1.8vh;
+  padding-right: 5px;
+}
+
+/*Emid HELP*/
+
+.project-main{
+  margin-top: 6vh;
+}
+.project-button{
+  margin-top: 6vh;
+}
+.project-menu {
+  margin-left: -8vw;
+}
+.project-menu-href {
+  font-size: 64px;
+  line-height: 8vh;
+}
+.project-menu-href-2 {
+  font-size: 64px;
+  line-height: 8vh;
+}
+.project-button {
+  margin: 3vh 0;
+  font-size: 18px;
+}
+.first-main{
+
+  margin-left: -43vh;
+}
+.project-content {
+  margin-left: 5vw;
+}
+.childrens{
+  width: 20.85vw;
+  height: 33.5vh;
+}
+.help-first {
+  margin-left: -13vw;
+}
+.first div {
+  margin-left: -12.5vw;
+}
+.data {
+  width: 3vw;
+  height: 1vh;
+  font-size: 16px;
+  line-height: 1vh;
+}
+.project-text-title {
+  font-size: 22px;
+  line-height: 1.5vh;
+}
+.project-text {
+  font-size: 18px;
+  line-height: 2vh;
+}
+
+.money {
+  font-size: 16px;
+  line-height: 1.5vh;
+}
+.help-icons{
+  margin-right: -1vw;
+}
+.help_ic{
+  width: 5vw;
+  height: 5vh;
+}
+.not-first {
+  margin-left: 6vw;
+  height: 100%;
+}
+.project-content-text {
+  font-size: 20px;
+  line-height: 1.8vh;
+}
+
+/*ARCHIVE*/
+
+.archive-icons {
+  margin-right: 3.2vw;
+  margin-bottom: 1vh;
+}
+.project-button{
+  font-size: 18px;
+}
+.archive-icons-2 {
+  padding-right: 3.5vw;
+  font-size: 18px;
+  line-height: 1.5vh;
+}
+.project-text-title{
+  margin-top: -2vh;
+  line-height: 2.5vh;
+}
+.content-text{
+  height: 26vh;
+}
+.foot_ic{
+  width: 20.84vw;
+  height: 26vh;
+}
+.archive-first {
+  margin-left: -13vw;
+}
+.line2 {
+  width: 100%;
+}
+.line2:before {
+  content: "";
+  display: flex;
+  width: 100%;
+  height: 3px;
+  background-color:#fff;
+  opacity: 0.5;
+}
+
 
   /*LOOP-Search*/
   .money2{
@@ -1198,10 +1388,10 @@ padding-left: 20px;
   }
   .search{
     height: 4vh;
-    font-size: 18px;
+    font-size: 20px;
   }
   #search2{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 2.5vh;
   }
   .close3{
@@ -1211,21 +1401,21 @@ padding-left: 20px;
     height: 4vh;
   }
   .zagov{
-    font-size: 26px;
+    font-size: 36px;
     margin-top: 7vh;
   }
   .money-row{
-    font-size: 18px;
+    font-size: 20px;
   }
   .money-row h4{
     font-size: 24px;
     margin-bottom: 1.8vh;
   }
   .money-column2 h4{
-    font-size: 24px;
+    font-size: 28px;
   }
   .money-column2{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 2.5vh;
   }
@@ -1246,7 +1436,7 @@ padding-left: 20px;
     justify-content: center;
   }
   .help_text_1{
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 5.5vw;
   }
   .help_svg1{
@@ -1301,19 +1491,19 @@ padding-left: 20px;
     font-size: 16px;
   }
   .ways1{
-    width: 11.5vw;
+    width: 10.5vw;
   }
   .ways2{
-    width: 12.9vw;
+    width: 11.8vw;
   }
   .ways3{
-    width: 14.3vw;
+    width: 13vw;
   }
   .ways4{
-    width: 14.8vw;
+    width: 13.6vw;
   }
   .tabs-nav__item.is-active::after{
-    margin-top: 7.3%;
+    margin-top: 7.5%;
   }
   .credit{
     width: 10vw;
@@ -1386,6 +1576,9 @@ padding-left: 20px;
     width: 2.2vw;
     height: 2.2vh;
   }
+  .aid{
+    font-size: 18px;
+  }
 
   /*CONTENT*/
   .main {
@@ -1413,6 +1606,9 @@ padding-left: 20px;
     height: 4vh;
   }
   /*FOOTER*/
+  .footer{
+    margin-top: 28vh;
+  }
   h5 {
     font-size: 18px;
     font-weight: 500;
@@ -1431,6 +1627,174 @@ padding-left: 20px;
     height: 7vh;
     border-radius: 90px;
   }
+  
+    /*CONTACTS*/
+
+.contacts-footer {
+  margin-left: 5vw;
+  margin-bottom: 3vh;
+  margin-top: 36vh;
+}
+.social-icon{
+  margin-left: 1vw;
+  height: 3vh;
+  width: 2.3vw;
+}
+.contacts-footer-1 {
+  margin-left: 43%;
+}
+.contacts-main {
+  width: 50vw;
+  margin-left: 25vw;
+  margin-top: 25vh;
+}
+.contacts-text {
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 5.5vh;
+}
+.contacts-text-2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5vh;
+}
+.input__block {
+  margin-top: 1vh;
+}
+
+.input-background {
+  padding: 5px;
+  margin-right: 1vw;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  border-radius: 4px;
+}
+.input-background-2 {
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6vh;
+}
+.menu-button {
+  border-radius: 4px;
+  margin: 0 1.8vh;
+  padding-right: 5px;
+}
+
+/*Emid HELP*/
+
+.project-main{
+  margin-top: 6vh;
+}
+.project-button{
+  margin-top: 6vh;
+}
+.project-menu {
+  margin-left: -8vw;
+}
+.project-menu-href {
+  font-size: 64px;
+  line-height: 8vh;
+}
+.project-menu-href-2 {
+  font-size: 64px;
+  line-height: 8vh;
+}
+.project-button {
+  margin: 3vh 0;
+  font-size: 18px;
+}
+.first-main{
+
+  margin-left: -52vh;
+}
+.project-content {
+  margin-left: 5vw;
+}
+.childrens{
+  width: 19.55vw;
+  height: 33.5vh;
+}
+.help-first {
+  margin-left: -16vw;
+}
+.first div {
+  margin-left: -12.5vw;
+}
+.data {
+  width: 3vw;
+  height: 1vh;
+  font-size: 16px;
+  line-height: 1vh;
+}
+.project-text-title {
+  font-size: 22px;
+  line-height: 1.5vh;
+}
+.project-text {
+  font-size: 18px;
+  line-height: 2vh;
+}
+
+.money {
+  font-size: 16px;
+  line-height: 1.5vh;
+}
+.help-icons{
+  margin-right: -1vw;
+}
+.help_ic{
+  width: 5vw;
+  height: 5vh;
+}
+.not-first {
+  margin-left: 6vw;
+  height: 100%;
+}
+.project-content-text {
+  font-size: 20px;
+  line-height: 1.8vh;
+}
+
+/*ARCHIVE*/
+
+.archive-icons {
+  margin-right: 3.2vw;
+  margin-bottom: 1vh;
+}
+.project-button{
+  font-size: 18px;
+}
+.archive-icons-2 {
+  padding-right: 3.5vw;
+  font-size: 18px;
+  line-height: 1.5vh;
+}
+.project-text-title{
+  margin-top: -2vh;
+  line-height: 2.5vh;
+}
+.content-text{
+  height: 26vh;
+}
+.foot_ic{
+  width: 19.45vw;
+  height: 26vh;
+}
+.archive-first {
+  margin-left: -16.2vw;
+}
+.line2 {
+  width: 100%;
+}
+.line2:before {
+  content: "";
+  display: flex;
+  width: 100%;
+  height: 3px;
+}
 
   /*LOOP-Search*/
   .money2{
@@ -1509,22 +1873,22 @@ padding-left: 20px;
     margin-top: 12vh;
     margin-right: -25vw;
     margin-left: -13vw;
-    font-size: 16px;
+    font-size: 18px;
   }
   .forms-main h1{
     font-size: 68px;
     font-weight: 400;
   }
   .words{
-    font-size: 16px;
+    font-size: 18px;
   }
   #swit, #swit2{
-    font-size: 16px;
+    font-size: 18px;
     width: 7vw;
     height: 3.8vh;
   }
   .form-text input{
-    font-size: 16px;
+    font-size: 18px;
   }
   .form-text2 input{
     font-size: 18px;
@@ -1548,7 +1912,7 @@ padding-left: 20px;
     width: 12.9vw;
   }
   .ways3{
-    width: 14.3vw;
+    width: 14.25vw;
   }
   .ways4{
     width: 14.8vw;
@@ -1570,19 +1934,19 @@ padding-left: 20px;
     height: 3vh;
     padding: 20px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 18px;
   }
   .card-else{
     width: 4vw;
     height: 4vh;
-    font-size: 16px;
+    font-size: 18px;
     padding: 10px 20px;
   }
   .card-else2{
   padding: 10px 20px;
   }
   .card-text{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 2.5vh;
   }
   .Ilon{
@@ -1628,6 +1992,9 @@ padding-left: 20px;
     width: 3.5vw;
     height: 3vh;
   }
+  .aid{
+    font-size: 40px;
+  }
 
   /*CONTENT*/
   .main {
@@ -1658,6 +2025,9 @@ padding-left: 20px;
     margin-left: 2vw;
   }
   /*FOOTER*/
+  .footer{
+    margin-top: 23vh;
+  }
   h5 {
     font-size: 46px;
     font-weight: 500;
@@ -1676,6 +2046,178 @@ padding-left: 20px;
     height: 8.5vh;
     border-radius: 95px;
   }
+
+      /*CONTACTS*/
+
+.contacts-footer {
+  margin-left: 5vw;
+  margin-bottom: 3vh;
+  margin-top: 36vh;
+}
+.social-icon{
+  margin-left: 1vw;
+  height: 3vh;
+  width: 2.3vw;
+}
+.contacts-main {
+  width: 55vw;
+  margin-left: 25vw;
+  margin-top: 25vh;
+}
+.contacts-text {
+  font-size: 170px;
+  font-weight: 400;
+  line-height: 8.5vh;
+}
+.contacts-text-2 {
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 1.5vh;
+}
+.input__block {
+  margin-top: 1vh;
+}
+.input__block input{
+  width: 15vw;
+  height: 3.5vh;
+}
+.input-background {
+  padding: 5px;
+  margin-right: 1vw;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.5vh;
+  border-radius: 4px;
+}
+.input-background-2 {
+  padding: 5px;
+  margin-right: 5px;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.6vh;
+}
+.menu-button {
+  border-radius: 4px;
+  margin: 0 1.8vh;
+  padding-right: 5px;
+}
+
+/*Emid HELP*/
+
+.project-main{
+  margin-top: 6vh;
+}
+.project-button{
+  margin-top: 6vh;
+}
+.project-menu {
+  margin-left: -9.1vw;
+}
+.project-menu-href {
+  font-size: 170px;
+  line-height: 8vh;
+}
+.project-menu-href-2 {
+  font-size: 170px;
+  line-height: 8vh;
+}
+.project-button {
+  margin: 3vh 0vh;
+  font-size: 46px;
+}
+.first-main{
+  margin-left: -80vh;
+}
+.project-content {
+  margin-left: 5vw;
+}
+.childrens{
+  width: 13vw;
+  height: 42vh;
+}
+.chat-icon-2{
+  width: 4vw;
+  height: 6.4vh;
+  border-radius: 90px;
+}
+.help-first {
+  margin-left: -16vw;
+}
+.first div {
+  margin-left: -12.5vw;
+}
+.data {
+  width: 3vw;
+  height: 1vh;
+  font-size: 40px;
+  line-height: 1vh;
+}
+.project-text-title {
+  font-size: 50px;
+  line-height: 1.5vh;
+}
+.project-text {
+  font-size: 18px;
+  line-height: 2vh;
+}
+
+.money {
+  font-size: 40x;
+  line-height: 1.5vh;
+}
+.help-icons{
+  margin-right: -1vw;
+}
+.help_ic{
+  width: 5vw;
+  height: 5vh;
+}
+.not-first {
+  margin-left: 6vw;
+  height: 100%;
+}
+.project-content-text {
+  font-size: 40px;
+  line-height: 1.8vh;
+}
+
+/*ARCHIVE*/
+
+.archive-icons {
+  margin-right: 3.2vw;
+  margin-bottom: 1vh;
+}
+.project-button{
+  font-size: 18px;
+}
+.archive-icons-2 {
+  padding-right: 3.5vw;
+  font-size: 18px;
+  line-height: 1.5vh;
+}
+.project-text-title{
+  margin-top: -2vh;
+  line-height: 2.5vh;
+}
+.content-text{
+  height: 26vh;
+}
+.foot_ic{
+  width: 19.45vw;
+  height: 26vh;
+}
+.archive-first {
+  margin-left: -16.2vw;
+}
+.line2 {
+  width: 100%;
+}
+.line2:before {
+  content: "";
+  display: flex;
+  width: 100%;
+  height: 3px;
+}
 
   /*LOOP-Search*/
   .money2{
